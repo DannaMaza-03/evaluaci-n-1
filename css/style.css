@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato & display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 1.5em;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -2px,
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+h8 {
+
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+h9 {
+
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+table {
+    border: none;
+}
+
+:root {
+    --color1: #D93BAF;
+    --color2: #F294D9;
+    --color3: #D91ACC;
+    --color4: #4F1BBF;
+    --color5: #4ACAD9;
+    --color6: #FF5060;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --gris-claro: #CCCCCC;
+    --gris-oscuro: #333333;
+   
+
+}
+
+#main-header {
+    background-color: var(--gris-oscuro);
+    color: var(--color2)
+}
+
+#main-header h1 {
+    margin-bottom: 0;
+    /*el espacio significa dentro de..*/
+}
+
+#main-header p {
+    margin-bottom: 0;
+}
+
+/*INTRODUCCIÓN*/
+#introduccion {
+    background-color:var(--color5);
+    color: var( --color-blanco);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.introduccionfondo {
+    background-color: var(--color3);
+    align-content: center;
+}
+
+/*TEMPORADAS*/
+#temporadas {
+    background-color: var(--color2);
+    color: var(--color-blanco);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.temporadasfondo {
+    background-color: var(--color4);
+    align-content: center;
+
+}
+
+#temporada1 {
+    text-align: center;
+}
+
+/*PASE*/
+.pase {
+    background-color: var(--color6);
+    align-content: center;
+
+}
+
+.pass {
+    text-transform: uppercase;
+    color: var(--color-blanco);
+    font-weight: 30px;
+}
+
+.text-pass {
+    padding-top: 15px;
+    padding-bottom: 26px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#padd-pase {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 900px;
+}
+
+.temppase {
+    background-color: #4F1BBF;
+}
+
+.text-temp {
+    color: #FFFFFF;
+
+    margin-right: 500px;
+}
+
+i {
+    color: gold;
+    background-color: #FFFFFF;
+}
+
+/*COMPLEMENTOS*/
+#complementos1 {
+    background-color: var(--color1);
+    color: var(--color-blanco);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.complementos {
+    background-color:var(--color-negro);
+    text-transform: uppercase;
+    color:var(--color-blanco);
+    font-weight: 30px;
+}
+
+.complementofondo {
+    background-color:var(--color-negro);
+    align-content: center;
+
+}
+
+/*OBTENPASE*/
+#obtenpasedetemporada {
+    background-color: var(--color4);
+    color: var(--color-blanco);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/*BOTONES*/
+
+a.boton-complex:link,
+a.boton-complex:visited {
+    padding: 10px 20px;
+    background:var(--color5);
+    text-decoration: none;
+    color:var(--color-blanco);
+    font-family: "Lato", sans-serif;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+}
+
+a.boton-complex:hover,
+a.boton-complex:active {
+    background:var(--color-negro);
+
+    /*TRANSCIONES en BOTON */
+    padding: 10px 20px;
+    background: var(--color-negro);
+    text-decoration: none;
+    color:var(--color-blanco);
+    margin: 20px 0;
+    transition-property:var(--color4);
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+a.boton-complex:hover,
+a.boton-complex:active {
+    background:var(--color4);
+}
+
+#trailer {
+    background-color: var(--color2);
+    color: var(--color-blanco);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom:10px;
+}
+
+.trailerfondo {
+    background-color: var(--color4);
+    align-content: center;
+
+}
+
+/*FOOTER*/
+#main-footer {
+    background-color: var(--gris-oscuro);
+    color: var(--color-blanco);
+    padding-bottom: 45px;
+    /*paddingespacio del contenido*/
+    padding-top: 45px;
+    text-align: center;
+}
+
+.prueba {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.espaciado {
+    padding: 20px;
+}
